@@ -1,0 +1,13 @@
+@import '../../template';
+@import '../../variables';
+
+.container {
+   width: 1,123px;
+   height: 61px;
+   padding: 0px 16px 0px 16px;
+   display: flex;
+   gap: 16px;
+   border-radius: var(--CornerSmall);
+   // border: 1px 0px 0px 0px;
+   background: $colorBackground;
+}

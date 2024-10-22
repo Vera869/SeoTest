@@ -6,19 +6,26 @@
   margin: 0;
   width: 1440px;
   height: 700px;
-  top: -374px;
-  left: -720px;
   background: $colorBackgroundGrey;
   padding: 0;
   margin: 0;
-  display: grid;
-  grid-template-columns: 15.764% 84.236%;
-  .container__menu {
-    // width: 277px;
+  display: flex;
+  .container__rightBlock {
+    padding: 0;
+    margin: 0;
+    width: 1163px;
+    // width: 100%;
     height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
-  .container__content {
-    // width: 1,163px;
+  .container__rightBlock__content {
+    width: 1143px;
     height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-left: 20px;
   }
  }
