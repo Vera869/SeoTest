@@ -1,0 +1,88 @@
+@import '../../template';
+@import '../../variables';
+
+.container {
+   width: 1,163px;
+   height: 72px;
+   padding: 20px;
+   border-bottom: 1px solid $colorBorder;
+   display: flex;
+   justify-content: space-between;
+   background: $colorBackground;
+   .container__header {
+      width: 488px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      .container__header__update {
+         width: 309px;
+         height: 32px;
+         display: flex;
+         align-items: center;
+         gap: 16px;
+         .project {
+            all: unset;
+            outline: none;
+            width: 95px;
+            height: 24px;
+            border-radius: var(--CornerExtra-small);
+            @include font(20px, $colorText, 700);
+            line-height: 24px;
+            text-align: left;
+            &:hover {
+               border: 1px solid $colorBorder;
+            }
+         }
+         .update {
+            width: 198px;
+            height: 32px;
+            display: flex;
+            text-wrap: nowrap;
+            align-items: center;
+            gap: 8px;
+            .update__img {
+               width: 32px;
+               height: 32px;
+               padding: 4px;
+               border-radius: var(--CornerExtra-small);
+            }
+            .update__txt {
+               width: 158px;
+               height: 14px;
+               @include font(12px, $colorText, 400);
+               line-height: 14.4px;
+               text-align: left;
+            }
+         }
+      }
+      .container__header__button {
+         width: 155px;
+         height: 32px;
+         padding: 8px 16px 8px 16px;
+         display: flex;
+         align-items: center;
+         gap: 8px;
+         border-radius: var(--CornerExtra-small);
+         background: $colorBackgroundBlue;
+         .container__header__button__img {
+            width: 24px;
+            height: 24px;
+         }
+         .container__header__button__txt {
+            width: 91px;
+            height: 17px;
+            @include font(14px, $colorTextlink, 500);
+            line-height: 16.8px;
+            text-align: center;
+         }
+      }
+   }
+   .container__btn {
+      width: 32px;
+      height: 32px;
+      padding: 4px;
+      border-radius: 4px;
+
+   }
+}

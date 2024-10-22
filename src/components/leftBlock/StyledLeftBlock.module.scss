@@ -2,13 +2,39 @@
 @import '../../variables';
 
 .container {
-   width: 277px;
+   // width: 277px;
    height: 700px;
    padding: 20px;
    display: flex;
    flex-direction: column;
    gap: 32px;
    @include font(20px, $colorText, 400);
-   border-right: 1px solid #E5E5EA;
-   background: #FFFFFF;
+   border-right: 1px solid $colorBorder;
+   background: $colorBackground;
+   .container__logo {
+      width: 237px;
+      height: 24px;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      .container__logo__title {
+         width: fit-content;
+         height: 22px;
+         @include font(30px, $colorText, 700);
+         line-height: 36px;
+         text-align: center;
+      }
+      .container__logo__img {
+         width: 24px;
+         height: 24px;     
+      }
+   }
+   .container__menu {
+      width: 237px;
+      height:251px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+   }
 }

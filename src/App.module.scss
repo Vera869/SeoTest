@@ -2,9 +2,23 @@
 @import './variables';
 
 .container {
+  padding: 0;
+  margin: 0;
   width: 1440px;
   height: 700px;
   top: -374px;
   left: -720px;
-  background: #F7F7F7;
+  background: $colorBackgroundGrey;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 15.764% 84.236%;
+  .container__menu {
+    // width: 277px;
+    height: fit-content;
+  }
+  .container__content {
+    // width: 1,163px;
+    height: fit-content;
+  }
  }
