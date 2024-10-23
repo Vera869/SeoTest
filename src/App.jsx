@@ -10,8 +10,8 @@ function App() {
     <div className={styles.container__rightBlock}>
       <MenuTop />
       <div className={styles.container__rightBlock__content}>
-      <CentralBlock />
-      <Footer />
+        <CentralBlock />
+        <Footer />
       </div>
     </div>
   </div>

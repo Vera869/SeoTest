@@ -27,7 +27,7 @@
             outline: none;
             width: 95px;
             height: 24px;
-            border-radius: var(--CornerExtra-small);
+            border-radius: 4px;
             @include font(20px, $colorText, 700);
             line-height: 24px;
             text-align: left;
@@ -46,7 +46,7 @@
                width: 32px;
                height: 32px;
                padding: 4px;
-               border-radius: var(--CornerExtra-small);
+               border-radius: 4px;
             }
             .update__txt {
                width: 158px;
@@ -64,7 +64,7 @@
          display: flex;
          align-items: center;
          gap: 8px;
-         border-radius: var(--CornerExtra-small);
+         border-radius: 4px;
          background: $colorBackgroundBlue;
          .container__header__button__img {
             width: 24px;
